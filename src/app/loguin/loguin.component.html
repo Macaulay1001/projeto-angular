@@ -1,0 +1,25 @@
+<div class=tudo>
+
+  <div>
+    <h1 class="p-3 mb-2 bg-info text-white text-white loguin text-center"> Loguin usuário</h1>
+  </div>
+
+  <form class="menu text-center">
+
+    <label>Usuário:
+      <input [(ngModel)]="usuarioInput" name="usuarioInput" [placeholder]="usuarioInput.loguin" class="clear" />
+    </label>
+    <br>
+    <label> Senha:
+      <input (ngModel)="usuarioInput.senha" name="usuarioInput" placeholder="senha" />
+    </label>
+    <br>
+    <button type="button" class="btn btn-lg btn-primary" onclick=mostrar()>
+      Entrar
+    </button>
+
+  </form>
+
+</div>
+
+<h1 class= "text-center">{{usuarioInput.loguin}}</h1>

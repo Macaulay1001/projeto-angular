@@ -1,0 +1,35 @@
+.header{
+
+    background-color: #33B5FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a1{
+    padding: 2px;
+    margin-left: 10px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.a2{
+    padding: 2px;
+}
+
+.text-logo
+{
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+}
+
+.text-logo2
+{
+    font-size: 1em;
+    font-family:  optima;
+}
+.button-logar{
+    margin: 30px;
+} 
